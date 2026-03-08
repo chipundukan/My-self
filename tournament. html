@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tournament</title>
+</head>
+
+<body style="background:#003366;color:white;text-align:center;">
+
+<h1>Tournament Mode 🏆</h1>
+
+<select>
+<option>Champions Cup</option>
+<option>League Cup</option>
+<option>World Tournament</option>
+</select>
+
+<br><br>
+
+<button>Start Tournament</button>
+
+<br><br>
+
+<a href="index.html">Back</a>
+
+</body>
+</html>
