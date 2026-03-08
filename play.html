@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Play Match</title>
+
+<style>
+
+body{
+background:#1b5e20;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+
+canvas{
+background:#2e7d32;
+border:4px solid white;
+display:block;
+margin:auto;
+}
+
+button{
+padding:10px;
+margin:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Play Match ⚽</h1>
+
+<button onclick="startAI()">Play vs AI</button>
+<button onclick="startPVP()">2 Player Mode</button>
+
+<p>Blue: <span id="blue">0</span> | Red: <span id="red">0</span></p>
+
+<canvas id="game" width="900" height="450"></canvas>
+
+<p>
+Player 1: Arrow Keys + Space  
+<br>
+Player 2: WASD + F
+</p>
+
+<a href="index.html">Back to Menu</a>
+
+<script src="game.js"></script>
+
+</body>
+</html>
