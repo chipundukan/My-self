@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Football Game</title>
+<title>Volta Football Game</title>
 
-<style>
+<link rel="stylesheet" href="style.css">
 
-body{
-background:#0b6623;
-color:white;
-font-family:Arial;
-text-align:center;
-}
+<script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
 
-button{
-padding:15px;
-font-size:18px;
-margin:10px;
-}
+<script src="scenes/menu.js"></script>
+<script src="scenes/play.js"></script>
+<script src="scenes/tournament.js"></script>
+<script src="scenes/training.js"></script>
+<script src="scenes/transfer.js"></script>
 
-</style>
+<script src="game.js"></script>
+
 </head>
 
 <body>
 
-<h1>Football Game ⚽</h1>
+<h1>Volta Football</h1>
 
-<h2>Main Menu</h2>
-
-<a href="play.html"><button>Play Match</button></a>
-<a href="tournament.html"><button>Tournament</button></a>
-<a href="training.html"><button>Training</button></a>
-<a href="transfer.html"><button>Transfer Market</button></a>
+<div id="game"></div>
 
 </body>
+
 </html>
